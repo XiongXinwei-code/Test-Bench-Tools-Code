@@ -14,7 +14,9 @@
 		<Item Name="Almost Equal.vi" Type="VI" URL="../Almost Equal.vi"/>
 		<Item Name="Assert Almost Equal.vim" Type="VI" URL="../Assert Almost Equal.vim"/>
 		<Item Name="Assert Equal Value.vim" Type="VI" URL="../Assert Equal Value.vim"/>
+		<Item Name="Assert Not Equal Value.vim" Type="VI" URL="../Assert Not Equal Value.vim"/>
 		<Item Name="Equal Value.vi" Type="VI" URL="../Equal Value.vi"/>
+		<Item Name="Error.vi" Type="VI" URL="../Error.vi"/>
 	</Item>
 	<Item Name="New Test" Type="Folder">
 		<Item Name="New Test.vi" Type="VI" URL="../New Test.vi"/>

@@ -18,6 +18,9 @@
 	</Item>
 	<Item Name="WindowFrom" Type="Folder">
 		<Item Name="Find Windows.vi" Type="VI" URL="../Find Windows.vi"/>
+		<Item Name="Get System Metrics.vi" Type="VI" URL="../Get System Metrics.vi"/>
+		<Item Name="Set Windows Position.vi" Type="VI" URL="../Set Windows Position.vi"/>
+		<Item Name="Set Windows Size.vi" Type="VI" URL="../Set Windows Size.vi"/>
 		<Item Name="Show Windows.vi" Type="VI" URL="../Show Windows.vi"/>
 	</Item>
 	<Item Name="Create TestComplete Reader.vi" Type="VI" URL="../Create TestComplete Reader.vi"/>
