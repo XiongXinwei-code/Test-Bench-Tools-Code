@@ -4,6 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="Error Handler.vi" Type="VI" URL="../Error Handler.vi"/>
 	<Item Name="LVUT_MainSequence(Example).vi" Type="VI" URL="../LVUT_MainSequence(Example).vi"/>
 	<Item Name="Test A.vi" Type="VI" URL="../Test A.vi"/>
 	<Item Name="Test B.vi" Type="VI" URL="../Test B.vi"/>
