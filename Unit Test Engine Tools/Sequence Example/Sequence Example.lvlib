@@ -6,6 +6,8 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Error Handler.vi" Type="VI" URL="../Error Handler.vi"/>
 	<Item Name="LVUT_MainSequence(Example).vi" Type="VI" URL="../LVUT_MainSequence(Example).vi"/>
+	<Item Name="Sub Sequence A.vi" Type="VI" URL="../Sub Sequence A.vi"/>
+	<Item Name="Sub Sequence B.vi" Type="VI" URL="../Sub Sequence B.vi"/>
 	<Item Name="Test A.vi" Type="VI" URL="../Test A.vi"/>
 	<Item Name="Test B.vi" Type="VI" URL="../Test B.vi"/>
 	<Item Name="Test C.vi" Type="VI" URL="../Test C.vi"/>
