@@ -28,6 +28,7 @@
 	<Item Name="Launch Test Bench.vi" Type="VI" URL="../Launch Test Bench.vi"/>
 	<Item Name="Launch Test.vi" Type="VI" URL="../Launch Test.vi"/>
 	<Item Name="Read TestComplete Infomation.vi" Type="VI" URL="../Read TestComplete Infomation.vi"/>
+	<Item Name="Set Sequence.vi" Type="VI" URL="../Set Sequence.vi"/>
 	<Item Name="TB Global 1.vi" Type="VI" URL="../TB Global 1.vi"/>
 	<Item Name="Terminate Test.vi" Type="VI" URL="../Terminate Test.vi"/>
 </Library>
