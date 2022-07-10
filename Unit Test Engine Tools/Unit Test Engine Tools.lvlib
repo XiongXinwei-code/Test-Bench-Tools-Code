@@ -33,5 +33,6 @@
 		<Item Name="Read Limit.vi" Type="VI" URL="../Read Limit.vi"/>
 		<Item Name="Write Limit Path.vi" Type="VI" URL="../Write Limit Path.vi"/>
 	</Item>
+	<Item Name="Config Test.vi" Type="VI" URL="../Config Test.vi"/>
 	<Item Name="LVUT Global 1.vi" Type="VI" URL="../LVUT Global 1.vi"/>
 </Library>
