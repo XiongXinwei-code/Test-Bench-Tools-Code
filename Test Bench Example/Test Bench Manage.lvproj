@@ -58,11 +58,7 @@
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Change Product Model(Event Callback).vi" Type="VI" URL="../../Change Product Model(Event Callback).vi"/>
-			<Item Name="Launch Test Station_1(Event Callback).vi" Type="VI" URL="../../Launch Test Station_1(Event Callback).vi"/>
-			<Item Name="Launch Test Station_2(Event Callback).vi" Type="VI" URL="../../Launch Test Station_2(Event Callback).vi"/>
-			<Item Name="Launch Test Station_3(Event Callback).vi" Type="VI" URL="../../Launch Test Station_3(Event Callback).vi"/>
-			<Item Name="Launch Test Station_4(Event Callback).vi" Type="VI" URL="../../Launch Test Station_4(Event Callback).vi"/>
+			<Item Name="CileckItem(Event Callback).vi" Type="VI" URL="../../CileckItem(Event Callback).vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

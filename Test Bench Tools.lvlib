@@ -12,7 +12,6 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="NotifyIcon" Type="Folder">
 		<Item Name="Dispose NotifyIcon Refernece.vi" Type="VI" URL="../Dispose NotifyIcon Refernece.vi"/>
-		<Item Name="Exit Test Bench(Event Callback).vi" Type="VI" URL="../Exit Test Bench(Event Callback).vi"/>
 		<Item Name="Get NotifyIcon Refernece.vi" Type="VI" URL="../Get NotifyIcon Refernece.vi"/>
 		<Item Name="Open Front Panel(Event Callback).vi" Type="VI" URL="../Open Front Panel(Event Callback).vi"/>
 	</Item>
