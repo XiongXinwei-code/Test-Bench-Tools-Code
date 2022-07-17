@@ -10,7 +10,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Sequence Example.lvlib" Type="Library" URL="../Sequence Example.lvlib"/>
+		<Item Name="Multisocket Example(Station1).lvlib" Type="Library" URL="../Multisocket Example(Station1)/Multisocket Example(Station1).lvlib"/>
+		<Item Name="Multisocket Example(Station2).lvlib" Type="Library" URL="../Multisocket Example(Station2)/Multisocket Example(Station2).lvlib"/>
+		<Item Name="Simple Example(Station1).lvlib" Type="Library" URL="../Simple Example(Station1)/Simple Example(Station1).lvlib"/>
+		<Item Name="Simple Example(Station2).lvlib" Type="Library" URL="../Simple Example(Station2)/Simple Example(Station2).lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -64,20 +67,20 @@
 			<Item Name="Unit Test Engine Tools.lvlib" Type="Library" URL="../../Unit Test Engine Tools.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Sequence Example" Type="Packed Library">
+			<Item Name="Multisocket Example-Station1" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{A3493443-0E3B-4F5A-8BFD-7D1E7F0BF1EC}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Sequence Example</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{638A3D53-F125-41D8-BC6E-CC99D401CD24}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Multisocket Example-Station1</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">..</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{9759DD04-76D8-45D9-969E-99E2D82E93A9}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{CB286D15-D6C4-4282-B5E2-22CC66613828}</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Sequence Example.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">Multisocket Example-Station1.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../Multisocket Example-Station1.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -86,10 +89,96 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{882F6DFE-2A32-4424-8A94-2F235E462E53}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{10ACE0D1-273A-4887-8CA1-C311231F3D29}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Sequence Example.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Multisocket Example(Station1).lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Multisocket Example-Station1</Property>
+				<Property Name="TgtF_internalName" Type="Str">Multisocket Example-Station1</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright ?2022 </Property>
+				<Property Name="TgtF_productName" Type="Str">Multisocket Example-Station1</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{BB493A8C-BD16-429B-B8DB-4538EEAE3C92}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Multisocket Example-Station1.lvlibp</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Multisocket Example-Station2" Type="Packed Library">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{947015A4-F3A6-430F-9336-427E6EB482C1}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Multisocket Example-Station2</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">..</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{5382A374-F79D-404F-8BF4-A7470C3352EB}</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Multisocket Example-Station2.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../Multisocket Example-Station2.lvlibp</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">..</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{10ACE0D1-273A-4887-8CA1-C311231F3D29}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Multisocket Example(Station1).lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Multisocket Example(Station2).lvlib</Property>
+				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[2].Library.atomicCopy" Type="Bool">true</Property>
+				<Property Name="Source[2].Library.LVLIBPtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[2].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Multisocket Example(Station1)</Property>
+				<Property Name="TgtF_internalName" Type="Str">Multisocket Example(Station1)</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright ?2022 </Property>
+				<Property Name="TgtF_productName" Type="Str">Multisocket Example(Station1)</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{781FE007-9767-4570-B94F-EF5B3E3C95B9}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Multisocket Example-Station2.lvlibp</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Simple Example-Station1" Type="Packed Library">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{A3493443-0E3B-4F5A-8BFD-7D1E7F0BF1EC}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Simple Example-Station1</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">..</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{9759DD04-76D8-45D9-969E-99E2D82E93A9}</Property>
+				<Property Name="Bld_version.build" Type="Int">17</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Simple Example-Station1.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../Simple Example-Station1.lvlibp</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">..</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{10ACE0D1-273A-4887-8CA1-C311231F3D29}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Simple Example(Station1).lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
@@ -98,12 +187,58 @@
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">上海赛莫科技有限公司</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Sequence Example</Property>
-				<Property Name="TgtF_internalName" Type="Str">Sequence Example</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Simple Example-Station1</Property>
+				<Property Name="TgtF_internalName" Type="Str">Simple Example-Station1</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright ?2022 上海赛莫科技有限公司</Property>
-				<Property Name="TgtF_productName" Type="Str">Sequence Example</Property>
+				<Property Name="TgtF_productName" Type="Str">Simple Example-Station1</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{31F00E45-D32A-4026-A0F0-0A2D995BDF77}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Sequence Example.lvlibp</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Simple Example-Station1.lvlibp</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Simple Example-Station2" Type="Packed Library">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{AAB7580F-57C4-45AF-9754-D6F3E3FD66D2}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Simple Example-Station2</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">..</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{B7B9F662-21B0-4D27-A894-70356739FC7C}</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Simple Example-Station2.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../Simple Example-Station2.lvlibp</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">..</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{10ACE0D1-273A-4887-8CA1-C311231F3D29}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Simple Example(Station1).lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Simple Example(Station2).lvlib</Property>
+				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[2].Library.atomicCopy" Type="Bool">true</Property>
+				<Property Name="Source[2].Library.LVLIBPtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[2].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">上海赛莫科技有限公司</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Simple Example(Station1)</Property>
+				<Property Name="TgtF_internalName" Type="Str">Simple Example(Station1)</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright ?2022 上海赛莫科技有限公司</Property>
+				<Property Name="TgtF_productName" Type="Str">Simple Example(Station1)</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{1AA7AC0E-3A06-4439-B255-9756355BB489}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Simple Example-Station2.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>

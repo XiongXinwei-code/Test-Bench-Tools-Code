@@ -24,6 +24,13 @@
 		<Item Name="VI Name.vi" Type="VI" URL="../VI Name.vi"/>
 	</Item>
 	<Item Name="Read Parameter" Type="Folder">
+		<Item Name="Read Instrument Parameter(CAN).vi" Type="VI" URL="../Read Instrument Parameter(CAN).vi"/>
+		<Item Name="Read Instrument Parameter(Digital IO).vi" Type="VI" URL="../Read Instrument Parameter(Digital IO).vi"/>
+		<Item Name="Read Instrument Parameter(DMM).vi" Type="VI" URL="../Read Instrument Parameter(DMM).vi"/>
+		<Item Name="Read Instrument Parameter(LIN).vi" Type="VI" URL="../Read Instrument Parameter(LIN).vi"/>
+		<Item Name="Read Instrument Parameter(PLC).vi" Type="VI" URL="../Read Instrument Parameter(PLC).vi"/>
+		<Item Name="Read Instrument Parameter(Scanner).vi" Type="VI" URL="../Read Instrument Parameter(Scanner).vi"/>
+		<Item Name="Read Instrument Parameter.vi" Type="VI" URL="../Read Instrument Parameter.vi"/>
 		<Item Name="Read Limit(Boolean Array).vi" Type="VI" URL="../Read Limit(Boolean Array).vi"/>
 		<Item Name="Read Limit(Boolean).vi" Type="VI" URL="../Read Limit(Boolean).vi"/>
 		<Item Name="Read Limit(Double Float Array).vi" Type="VI" URL="../Read Limit(Double Float Array).vi"/>
@@ -31,8 +38,8 @@
 		<Item Name="Read Limit(String Array).vi" Type="VI" URL="../Read Limit(String Array).vi"/>
 		<Item Name="Read Limit(String).vi" Type="VI" URL="../Read Limit(String).vi"/>
 		<Item Name="Read Limit.vi" Type="VI" URL="../Read Limit.vi"/>
-		<Item Name="Write Limit Path.vi" Type="VI" URL="../Write Limit Path.vi"/>
 	</Item>
 	<Item Name="Config Test.vi" Type="VI" URL="../Config Test.vi"/>
 	<Item Name="LVUT Global 1.vi" Type="VI" URL="../LVUT Global 1.vi"/>
+	<Item Name="Pause.vi" Type="VI" URL="../Pause.vi"/>
 </Library>
