@@ -27,8 +27,12 @@
 		<Item Name="Read Instrument Parameter(CAN).vi" Type="VI" URL="../Read Instrument Parameter(CAN).vi"/>
 		<Item Name="Read Instrument Parameter(Digital IO).vi" Type="VI" URL="../Read Instrument Parameter(Digital IO).vi"/>
 		<Item Name="Read Instrument Parameter(DMM).vi" Type="VI" URL="../Read Instrument Parameter(DMM).vi"/>
+		<Item Name="Read Instrument Parameter(Electronic load).vi" Type="VI" URL="../Read Instrument Parameter(Electronic load).vi"/>
 		<Item Name="Read Instrument Parameter(LIN).vi" Type="VI" URL="../Read Instrument Parameter(LIN).vi"/>
+		<Item Name="Read Instrument Parameter(Oscilloscope).vi" Type="VI" URL="../Read Instrument Parameter(Oscilloscope).vi"/>
 		<Item Name="Read Instrument Parameter(PLC).vi" Type="VI" URL="../Read Instrument Parameter(PLC).vi"/>
+		<Item Name="Read Instrument Parameter(Power Supply).vi" Type="VI" URL="../Read Instrument Parameter(Power Supply).vi"/>
+		<Item Name="Read Instrument Parameter(Programming).vi" Type="VI" URL="../Read Instrument Parameter(Programming).vi"/>
 		<Item Name="Read Instrument Parameter(Scanner).vi" Type="VI" URL="../Read Instrument Parameter(Scanner).vi"/>
 		<Item Name="Read Instrument Parameter.vi" Type="VI" URL="../Read Instrument Parameter.vi"/>
 		<Item Name="Read Limit(Boolean Array).vi" Type="VI" URL="../Read Limit(Boolean Array).vi"/>
@@ -42,4 +46,5 @@
 	<Item Name="Config Test.vi" Type="VI" URL="../Config Test.vi"/>
 	<Item Name="LVUT Global 1.vi" Type="VI" URL="../LVUT Global 1.vi"/>
 	<Item Name="Pause.vi" Type="VI" URL="../Pause.vi"/>
+	<Item Name="Run Socket.vi" Type="VI" URL="../Run Socket.vi"/>
 </Library>
